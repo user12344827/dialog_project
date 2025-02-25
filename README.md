@@ -25,7 +25,7 @@ main.sh
 3. install_chocolux.sh
 
 # Phpsysinfo安裝程式：
-installphpinfo
+installphpinfo.sh
 ```
 
 ## 額外檔案
