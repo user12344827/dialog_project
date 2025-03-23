@@ -1,4 +1,4 @@
-# Apache 網站安裝工具
+## my_product：
 
 本程式為**提供網站架設**之TUI介面，
 本TUI提供兩種網站架設：
@@ -8,16 +8,16 @@
 架設完畢之後，會用curl指令進行檢查，
 確認無誤，即架設成功。
 
-## 主要程式
+### 主要程式
 
-主要執行程式，dialog介面
+主要執行程式，dialog介面。
 ```
 main.sh
 ```
 
-## 副程式
+### 副程式
 
-須放在同一路徑下，由main.sh執行
+須放在同一路徑下，由main.sh執行。
 ```
 # HTML安裝程式(不同模板)：
 1. install_cafe.sh
@@ -28,15 +28,29 @@ main.sh
 installphpinfo.sh
 ```
 
-## 額外檔案
+### 額外檔案/程式
 ```
 # 用於網站測試之檔案
 curl.txt 
-```
 
-## 額外程式
-用於刪除用途，不使用在main.sh
-```
+# 用於刪除用途，不使用在main.sh
 removeapache.sh
 removephpinfo.sh
 ```
+
+### 操作指南
+
+1. 賦予 main 資料夾的所有 .sh 檔案**執行權限**。
+```
+chmod +x *.sh
+```
+2. 安裝dialog、unzip套件。
+```
+sudo apt install dialog unzip
+```
+3. 啟動主程式。
+```
+./main.sh
+```
+
+### 畫面呈現：
