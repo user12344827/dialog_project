@@ -74,3 +74,22 @@ Claire、Kelly、Dino、Sophia、Joelle、Amy
 1. 需要 root 權限安裝 Apache
 2. 會覆蓋 /var/www/html 目錄下的檔案
 3. 請確保有穩定的網路連線
+
+## 畫面呈現
+
+1. 初始頁面 - 輸入名字
+![圖片描述](photo/result1.png)
+2. 開始頁面
+![圖片描述](photo/result2.png)
+3. 選單 - 選擇用途
+![圖片描述](photo/result3.png)
+4. 選單 - 選擇樣式
+![圖片描述](photo/result4.png)
+5. 安裝成功畫面
+![圖片描述](photo/result5.png)
+6. 頁面顯示（在瀏覽器輸入IP）
+![圖片描述](photo/result6.png)
+7. 選擇其他網頁（點擊yes，移除原本網頁）
+![圖片描述](photo/result7.png)
+8. 結束頁面
+![圖片描述](photo/result8.png)

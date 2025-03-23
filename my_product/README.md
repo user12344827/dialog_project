@@ -54,3 +54,12 @@ sudo apt install dialog unzip
 ```
 
 ### 畫面呈現：
+
+1. 初始頁面
+![圖片描述](photo/result1.png)
+2. 網頁選單
+![圖片描述](photo/result2.png)
+3. 安裝成功畫面
+![圖片描述](photo/result3.png)
+4. 頁面顯示（在瀏覽器輸入IP）
+![圖片描述](photo/result4.png)
